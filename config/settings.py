@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     debug: bool = False
 
     # LLM
-    llm_api_key: str = "sk-REPLACED_KEY"
+    llm_api_key: str = ""
     llm_base_url: str = "https://dashscope.aliyuncs.com/compatible-mode/v1"
     llm_model: str = "qwen-plus"
     llm_temperature: float = 0.7
